@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="header">
+            <div class="site-identity">
+                <div class="logo-div"><img src="assets/Boichitro-Logo.jpeg" alt="Boichitro logo"></div>
+                <div class="brand-name">Boichitro</div>
+            </div>
+            <div class="desktop-nav">
+                <a href="index.html">Home</a>
+                <a href="about-us.html">About us</a>
+                <a href="#">Authors</a>
+                <a href="#">Publishers</a>
+				 <a href="https://play.google.com/store/apps/details?id=com.dhansiri.communicationltm.boichitro">Download App</a>
+            </div>
+
+            <!-- Top Navigation Menu -->
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="#">Authors</a></li>
+                    <li><a href="#">Publishers</a></li>
+					<a href="https://play.google.com/store/apps/details?id=com.dhansiri.communicationltm.boichitro">Download App</a>
+                </ul>
+            </div>
+        </div>
+        <div class="hero-section">
+            <div class="top-section">
+                <div class="bangabandhu-image-div">
+                    <img src="assets/Landing-Page-Design-output-1.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="left-column">
+                    <div class="big-text">
+                        <img src="assets/Landing-Page-Design-output-2.png" alt="Big Text">
+                    </div>
+                    <div class="install-div">
+                        <div class="install-text">
+                            <img src="assets/Install-me.png" alt="Install me">
+                        </div>
+                        <div class="install-button">
+                            <a class="app-store-button" href="#">
+                                <img src="assets/app-store-button.png" alt="Apple store">
+                            </a>
+                            <a class="playstore-button" href="https://play.google.com/store/apps/details?id=com.dhansiri.communicationltm.boichitro">
+                                <img src="assets/google-play-button.png" alt="play store">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="company-identity">
+                        <img src="assets/Landing Page Design output-17.png" alt="Powered By Image">
+                    </div>
+                </div>
+                <div class="right-column">
+                    <div class="mobile-img-div">
+                        <img src="assets/Mobile.png" alt="Mobile">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+		
+        <div class="footer">
+		
+		<div class="row">
+		<div class="left-column"></div>
+		<div class="rigth-colum" style="padding:2px;"><a  style="color:white" href="privacy.html">Privacy</a> | <a href="term-condition.html">terms and conditions</a></div>
+		</div>
+		
+		</div>
+		
+		
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

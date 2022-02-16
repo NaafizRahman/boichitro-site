@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="header">
+            <div class="site-identity">
+                <div class="logo-div"><img src="assets/Boichitro-Logo.jpeg" alt="Boichitro logo"></div>
+                <div class="brand-name">Boichitro</div>
+            </div>
+            <div class="desktop-nav">
+                 <a href="index.html">Home</a>
+                <a href="about-us.html">About us</a>
+                <a href="#">Authors</a>
+                <a href="#">Publishers</a>
+				 <a href="https://play.google.com/store/apps/details?id=com.dhansiri.communicationltm.boichitro">Download App</a>
+            </div>
+
+            <!-- Top Navigation Menu -->
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="#">Authors</a></li>
+                    <li><a href="#">Publishers</a></li>
+					<a href="https://play.google.com/store/apps/details?id=com.dhansiri.communicationltm.boichitro">Download App</a>
+                </ul>
+            </div>
+        </div>
+        <div class="hero-section">
+
+<div class="row">
+
+<div class="left-column">
+<h2 dir="ltr" style="line-height:1.38;text-align: center;margin-top:18pt;margin-bottom:6pt;"><span style="font-size:16pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">আমাদের সম্পর্কে&nbsp;</span></h2>
+<p><br></p>
+<p><br></p>
+<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">বইচিত্র&nbsp;</span><span style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">&nbsp;জাতীয় পর্যায়ের বাংলাদেশী বুক আর্কাইভ অ্যাপ। ডিজিটাল লাইব্রেরি ফরম্যাটে এই আর্কাইভটি তৈরী করা হয়েছে। এই &nbsp;আর্কাইভে থাকছে মুক্তিযুদ্ধ বিষয়ক বই, উপন্যাস, কবিতা, প্রবন্ধ, শিশু সাহিত্য, সাহিত্য সমালোচনা &nbsp;এবং অন্যান্য বিষয় ভিত্তিক বই। কেবল টেক্সট ফরম্যাটে নয় , এই &nbsp;আর্কাইভে থাকছে অডিও-বুক। সেই সাথে সাহিত্য যে সকল চলচ্চিত্র তৈরি হয়েছে সেই চলচ্চিত্র এই &nbsp;আর্কাইভে সন্নিবেশিত থাকছে। &nbsp;থাকছে সাহিত্য বিষয়ক আলোচনা এবং ব্লগিং।&nbsp;</span></p>
+<p><br></p>
+<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">বইচিত্র- এ &nbsp;প্রতিটি প্রকাশনা বিষয়ে এবং লেখক সম্পর্কে নোট &nbsp;থাকছে। &nbsp;পাঠক খুব সহজেই প্রকাশনা বিষয়ে জেনে নিতে পারবেন এই আর্কাইভ থেকে।&nbsp;</span></p>
+<p><br></p>
+<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">এছাড়া বইচিত্র- এ অন্নান্য বই ভিত্তিক অ্যাপ, ওয়েবসাইট , জাতীয় ও আন্তর্জাতিক প্রকাশনা প্রতিষ্ঠানের লিংক থাকছে। পাঠকবৃন্দ বইচিত্র মোবাইল অ্যাপটি প্রকাশনা বিষয়ক একটি কেন্দ্রীয় ডিজিটাল হাব হিসেবে &nbsp;স্বাচ্ছন্দ্যে ব্যবহার করতে পারবেন।&nbsp;</span></p>
+</div>
+
+<div class="right-column">
+</div>
+
+        </div>
+		
+        <div class="footer">
+		
+		<div class="row">
+		<div class="left-column"></div>
+		<div class="rigth-colum" style="padding:2px;"><a  style="color:white" href="privacy.html">Privacy</a> | <a href="term-condition.html">terms and conditions</a></div>
+		</div>
+		
+		</div>
+		
+
+
+		
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
