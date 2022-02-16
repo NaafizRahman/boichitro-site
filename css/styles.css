@@ -434,3 +434,146 @@ ul li:hover {
     display: block;
   }
 }
+
+@media only screen and (min-width: 769px) and (max-width: 1125px) {
+  .header {
+    /* margin-left: 2px; */
+    /* margin-right: 2px; */
+    padding: 0 10px;
+    height: 60px;
+  }
+
+  body {
+    background-size: cover !important;
+  }
+
+  a {
+    font-size: 0.8em;
+  }
+
+  .site-identity {
+    /* As it was */
+  }
+
+  .hero-section {
+    padding: 0 10px;
+  }
+  body {
+    background-image: url(../assets/backdrop.jpg);
+    background-color: rgba(255, 255, 255, 0.911);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-position: 40% 0%; */
+  }
+
+  .logo-div {
+    /* position: relative; */
+    top: 10px;
+    margin-right: 5px;
+  }
+
+  .logo_img {
+    /* width: 60px; */
+    /* height: auto; */
+    /* height: 100px; */
+    position: relative;
+    top: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 4px 36px -3px rgba(0, 0, 0, 0.88);
+    box-shadow: 5px 4px 36px -3px rgba(0, 0, 0, 0.88);
+  }
+
+  .brand-name {
+    font-size: 0.8rem;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .top-section {
+    padding: 15px 0;
+  }
+
+  .hero-section {
+    padding: 0 5px;
+  }
+
+  .row {
+    flex-direction: column-reverse;
+  }
+  .mobile-img-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mobile-img-div > img {
+    max-width: 80%;
+    height: auto;
+    aspect-ratio: 2/3;
+    position: static;
+  }
+
+  .big-text {
+    justify-self: center;
+    align-self: center;
+  }
+
+  .big-text > img {
+    max-width: 100%;
+    height: auto;
+    position: static;
+  }
+
+  .install-text > img {
+    max-width: 100%;
+  }
+
+  .install-button > a > img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .playstore-button > img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .company-identity > img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    /* height: 10px; */
+    background: rgb(140, 40, 20);
+    background: radial-gradient(
+      circle,
+      rgba(140, 40, 20, 1) 40%,
+      rgba(214, 65, 23, 1) 100%
+    );
+  }
+
+  .footer-about {
+    position: absolute;
+    bottom: 0px;
+  }
+
+  .footer-privacy {
+    position: relative;
+    bottom: 0px;
+  }
+
+  .footer-terms-and-conditions {
+    position: relative;
+    bottom: 0px;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+}
