@@ -577,3 +577,15 @@ ul li:hover {
     display: block;
   }
 }
+
+@media only screen and (min-width: 1025px) {
+  .wrapper {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .mobile-img-div > img {
+    width: auto;
+    height: 65vh;
+  }
+} 
